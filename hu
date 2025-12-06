@@ -1,0 +1,109 @@
+#InstallKeybdHook
+
+; ----------------------------
+;  HANYA IZINKAN F1–F12 + FN + POWER
+; ----------------------------
+
+; IZINKAN F1–F12
+F1::return
+F2::return
+F3::return
+F4::return
+F5::return
+F6::return
+F7::return
+F8::return
+F9::return
+F10::return
+F11::return
+F12::return
+
+; IZINKAN WINDOWS KEY (opsional, kalau tak mau: hapus saja)
+LWin::return
+RWin::return
+
+; FN TIDAK PERLU DIATUR (tidak terdeteksi oleh Windows, otomatis selalu aktif)
+
+; TOMBOL POWER tidak bisa diblok oleh AHK, jadi tetap aman.
+
+; ----------------------------
+;  MATIKAN SEMUA TOMBOL LAIN
+; ----------------------------
+
+; Block semua tombol keyboard
+; kecuali yang didefinisikan di atas
+~*a::return
+~*b::return
+~*c::return
+~*d::return
+~*e::return
+~*f::return
+~*g::return
+~*h::return
+~*i::return
+~*j::return
+~*k::return
+~*l::return
+~*m::return
+~*n::return
+~*o::return
+~*p::return
+~*q::return
+~*r::return
+~*s::return
+~*t::return
+~*u::return
+~*v::return
+~*w::return
+~*x::return
+~*y::return
+~*z::return
+
+~*1::return
+~*2::return
+~*3::return
+~*4::return
+~*5::return
+~*6::return
+~*7::return
+~*8::return
+~*9::return
+~*0::return
+
+~*-::return
+~*=::return
+~*[::return
+~*]::return
+~*\::return
+~*;::return
+~*'::return
+~*,::return
+~*.::return
+~*/::return
+~*`::return
+
+~*Tab::return
+~*CapsLock::return
+~*Shift::return
+~*Ctrl::return
+~*Alt::return
+~*Backspace::return
+~*Enter::return
+~*Space::return
+
+~*Esc::return
+~*Insert::return
+~*Delete::return
+~*Home::return
+~*End::return
+~*PgUp::return
+~*PgDn::return
+~*Up::return
+~*Down::return
+~*Left::return
+~*Right::return
+
+~*NumLock::return
+~*PrintScreen::return
+~*ScrollLock::return
+~*Pause::return
